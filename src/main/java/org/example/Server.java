@@ -22,7 +22,7 @@ public class Server extends Thread {
 
 
     public static void main(String[] args) throws IOException {
-        File settings = new File("D:/Java/COURSE_PROJECTS", "settings.txt");
+        File settings = new File("settings.txt");
         final int PORT = getPort(settings);
 
         System.out.println("Сервер запущен!");
